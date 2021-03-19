@@ -1,0 +1,77 @@
+git config --global user.name "yourname"
+-- used to configure your username
+git config user.email "yourmailid"
+-- used to configure your mailid
+cd 
+-- change directory
+pwd
+-- to check the present path
+mkdir directoryname
+-- to create a folder
+touch  filename.fileextension
+-- to create a file
+ls
+-- to display list of files
+## creating a folder in local desktop 
+
+mkdir foldername
+
+-- change your destination to folder
+
+create a file into that folder
+
+touch filename
+
+## steps to push files from local desktop to 
+github account
+step 1 : create a repository in github account
+step 2 : repository should be public repository
+step 3 : Initialise the repository with readme.md 
+step 4 : After creating repository copy the url of
+the repository
+step 5 : Minimise your github account
+step 6 : In desktop open your folder
+step 7 : Do The Right Click and Select GitBash Here
+step 8 : git init
+-------- Initialise an empty git repository in your 
+-------- local folder
+step 9 : git add filename
+-------- add a single file to git tool
+step 10 : git add .
+-------- will add all the files to tracking area
+step 11 : git status
+-------- To check the status of git
+-------(hint) if files are in red color 
+------------- i.e. untracked files
+------------- if files are in  green color
+-------------- i.e. tracked files
+step 12 : git commit -m "anycommit message"
+-------------- To add and to save the changes to git
+step 13 : git log
+---- to  check the history
+step 14 : git remote add remotename "paste url"
+------ It will add a remote between local folder and
+------ github repository
+step 15: git remote
+------ To check the remote
+step 16 : git push remotename branchname(master)
+------ To push files from local folder to github
+------ for firsttime it will check your username &
+------ password give your github username & password
+step 17: Open github account and select compare and
+pull request option
+------ change both branches base,compare to master
+------ open repository at branch select master
+------ we are able to see files
+
+
+## To add files after modifications from local folder
+---- to github repository
+--- first we have to fetch and pull
+---- then only we can push
+step 1: git fetch remotename
+---- To fetch the changes to git
+step 2: git pull remotename branchname(master)
+---- To pull the changes to git
+step 3 : git push remotename branchname(master)
+---- To push the files from localfolder to github
